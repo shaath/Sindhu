@@ -1,0 +1,19 @@
+package com.orgHRM.Master;
+
+public class basicfunctions 
+{
+
+	public static void main(String[] args) 
+	{
+		function1();
+
+	}
+	
+	//static function without returning value
+	
+	public static void function1()
+	{
+		System.out.println("This is function1 code");
+	}
+
+}

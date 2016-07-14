@@ -1,0 +1,13 @@
+package com.orgHRM.pages;
+
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+
+public class adminpage 
+{
+	@FindBy(id="menu_admin_viewAdminModule")
+	WebElement admin;
+
+	@FindBy(id="menu_pim_viewPimModule")
+	WebElement pim;
+}

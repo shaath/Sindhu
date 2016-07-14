@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Grid" duration-ms="63874" started-at="2016-07-13T12:01:26Z" finished-at="2016-07-13T12:02:30Z">
+    <groups>
+    </groups>
+    <test name="on chrome" duration-ms="30989" started-at="2016-07-13T12:01:26Z" finished-at="2016-07-13T12:01:57Z">
+      <class name="com.orgHRM.Grid.grideg2">
+        <test-method status="PASS" signature="grid(java.lang.String)[pri:0, instance:com.orgHRM.Grid.grideg2@455f1fa0]" name="grid" duration-ms="30883" started-at="2016-07-13T17:31:26Z" finished-at="2016-07-13T17:31:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- grid -->
+      </class> <!-- com.orgHRM.Grid.grideg2 -->
+    </test> <!-- on chrome -->
+    <test name="on Ie" duration-ms="59911" started-at="2016-07-13T12:01:26Z" finished-at="2016-07-13T12:02:26Z">
+      <class name="com.orgHRM.Grid.grideg2">
+        <test-method status="PASS" signature="grid(java.lang.String)[pri:0, instance:com.orgHRM.Grid.grideg2@2d30e79d]" name="grid" duration-ms="59814" started-at="2016-07-13T17:31:26Z" finished-at="2016-07-13T17:32:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ie]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- grid -->
+      </class> <!-- com.orgHRM.Grid.grideg2 -->
+    </test> <!-- on Ie -->
+    <test name="on Firefox" duration-ms="63874" started-at="2016-07-13T12:01:26Z" finished-at="2016-07-13T12:02:30Z">
+      <class name="com.orgHRM.Grid.grideg2">
+        <test-method status="PASS" signature="grid(java.lang.String)[pri:0, instance:com.orgHRM.Grid.grideg2@56811df]" name="grid" duration-ms="63776" started-at="2016-07-13T17:31:26Z" finished-at="2016-07-13T17:32:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- grid -->
+      </class> <!-- com.orgHRM.Grid.grideg2 -->
+    </test> <!-- on Firefox -->
+  </suite> <!-- Grid -->
+</testng-results>

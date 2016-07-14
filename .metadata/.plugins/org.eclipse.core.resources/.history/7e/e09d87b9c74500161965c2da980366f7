@@ -1,0 +1,24 @@
+package day5;
+
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class drag_drop {
+
+	public static void main(String[] args) 
+	{
+		WebDriver driver=new FirefoxDriver();
+		driver.get("http://jqueryui.com/droppable/");
+		
+//		WebElement source=driver.findElement(By.id("draggable"));
+//		WebElement target=driver.findElement(By.id("droppable"));
+		
+		List<WebElement> frames=driver.findElements(By.tagName("iframe"));
+		System.out.println(frames.size());
+	}
+
+}

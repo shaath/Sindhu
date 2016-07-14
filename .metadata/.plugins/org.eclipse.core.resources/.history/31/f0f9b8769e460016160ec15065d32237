@@ -1,0 +1,10 @@
+package com.orgHRM.TestSuite;
+
+public class orgHrmTS {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
